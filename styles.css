@@ -1,0 +1,17 @@
+
+
+.h1, h1{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 50px;
+   
+}
+#presentacion{
+    text-align: center;
+    justify-content: center;
+    
+}
+.card{
+    margin-top: 40px;
+}
+

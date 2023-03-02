@@ -1,13 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi primer proyecto</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Escribania</title>
+    <link rel="stylesheet" href="bootstrap.min(1).css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>hola mundo</h1>
+    <div class="container-fluid bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Escribania Di Pietro</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Turnos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tramites</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Contacto
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Calle 48 e/ 23 y 24</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row mt-5 ms-4" id="presentacion">
+        <h1>Escribania Di Pietro</h1>
+        <div class="col-4 ms-5">
+            <div class="card" style="width: 18rem;">
+                <img src="escribana.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maria Victoria Di Pietro</h5>
+                  <p class="card-text">Recibida de la Universidad Nacional de La Plata</p>
+                  <a href="#" class="btn btn-primary">Solicitar Turno</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="escribana.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maria Clara Di Pietro</h5>
+                  <p class="card-text">Recibida de la Universidad Nacional de La Plata</p>
+                  <a href="#" class="btn btn-primary">Solicitar Turno</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="cards" class="row mt-5 ms-4">
+        <div class="col-3 ms-5">
+            <div class="card">
+                <img src="escribania.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Escrituras</h5>
+                    <p class="card-text">¿Que necesitas para escriturar tu terreno o casa?</p>
+                    <a href="#" class="btn btn-primary">Conocer mas</a>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="col-3 ms-5">
+            <div class="card ">
+                <img src="escribania.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Certificacion</h5>
+                    <p class="card-text">Tramite rapido y sencillo pero de los mas solicitados </p>
+                    <a href="#" class="btn btn-primary">Conocer mas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 ms-5">
+            <div class="card">
+                <img src="escribania.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Contratos</h5>
+                    <p class="card-text">Cuando alquilas tenes que tener un contrato que este certificado</p>
+                    <a href="#" class="btn btn-primary">Conoce mas</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+</div>
+
+
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white mt-5"
+            style="background-color: #45526e"
+            >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Escribania Di Pietro
+              </h6>
+              <p>
+                Tu Escribania de confianza en La Plata
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Titular</h6>
+              <p>
+                <a class="text-white">Maria Victoria</a>
+              </p>
+              <p>
+                <a class="text-white">Di Pietro</a>
+              </p>
+              
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Adjunta
+              </h6>
+              <p>
+                <a class="text-white">Maria Clara</a>
+              </p>
+              <p>
+                <a class="text-white">Di Pietro</a>
+              </p>
+              
+            </div>
+  
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+              <p><i class="fas fa-home mr-3"></i> Calle 48 N°1430</p>
+              <p><i class="fas fa-envelope mr-3"></i> mvdipietro@hotmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> 221-4579140</p>
+              <p><i class="fas fa-print mr-3"></i> 221-5595400</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-3">
+  
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                © 2023 Copyright:
+                <a class="text-white" href="#"
+                   >Emiliano Kourtis</a
+                  >
+              </div>
+              <!-- Copyright -->
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Facebook -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 class="text-white"
+                 role="button"
+                 ><i class="fab fa-facebook-f"></i
+                ></a>
+  
+              <!-- Twitter -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 class="text-white"
+                 role="button"
+                 ><i class="fab fa-twitter"></i
+                ></a>
+  
+              <!-- Google -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 class="text-white"
+                 role="button"
+                 ><i class="fab fa-google"></i
+                ></a>
+  
+              <!-- Instagram -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 class="text-white"
+                 role="button"
+                 ><i class="fab fa-instagram"></i
+                ></a>
+            </div>
+            <!-- Grid column -->
+          </div>
+        </section>
+        <!-- Section: Copyright -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+  
 </body>
+
 </html>
